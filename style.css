@@ -1,0 +1,94 @@
+body {
+    font-family: Tahoma;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+
+  h2 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+
+  .mainH3 {
+    background-color: white;
+    color: coral;
+    padding: 20;
+    width: fit-content;
+    
+  }
+
+  .altH3 {
+    background-color: darkslateblue;
+    color: white;
+    padding: 20;
+    width: fit-content;
+  }
+  
+  .main {
+    background-color: darkslateblue;
+    color: white;
+    align-content: center;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: darkslateblue; /* For browsers that do not support gradients */
+    background-image: linear-gradient(lightsteelblue , darkslateblue);
+  }
+
+  .end {
+    background-color: darkslateblue;
+    color: white;
+    align-content: center;
+    vertical-align: middle;
+    background-color: darkslateblue;
+    display: table-cell;
+    vertical-align: middle;
+    
+    padding: 100px;
+    width: 100vw;
+  }
+
+  .divStyle1 {
+    padding: 50px;
+  }
+
+  .themeColorMain {
+    background-color: coral;
+    color:white;
+  }
+
+  .themeColorAlt {
+    background-color: white;
+    color:darkslateblue;
+  }
+
+  .bar {
+    text-align: center;
+  }
+
+  .bar-button {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: darkslateblue;
+  }
+
+  img.profile {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #filldiv {
+    height: 100vh;
+    width: 100vw;
+  }

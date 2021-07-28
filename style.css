@@ -52,9 +52,11 @@ h2 {
   background-color: darkslateblue;
   display: table-cell;
   vertical-align: middle;
+
+  display: flex;
+  justify-content: center;
   
   padding: 100px;
-  width: 100vw;
 }
 
 .divStyle1 {
@@ -90,6 +92,11 @@ img.avatar {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+img.icon {
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 #main {

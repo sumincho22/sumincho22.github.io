@@ -2,54 +2,81 @@ html {
   scroll-behavior: smooth;
 }
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5F7880;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+nav li {
+  float: right;
+  font-size: 1vw;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 2vh 1vw;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.top {
+  color: #5F7880;
+  background-color: white;
+}
+
 body {
   font-family: Tahoma;
+  margin: 0;
+  width: 100%;
 }
-  
+
 h1 {
-  text-align: center;
-  font-size: 40px;
-  margin-bottom: 0px;
+  text-align: left;
+  font-size: 5vw;
+  padding-top: 20vh;
+  padding-left: 4vw;
+  margin: 0;
 }
 
 h2 {
-  text-align: center;
+  text-align: left;
+  font-size: 1.5vw;
   font-weight: lighter;
-  font-size: 20px;
-  margin-bottom: 40px;
+  padding-top: 1vw;
+  padding-left: 4vw;
+  margin: 0;
 }
 
 .mainH3 {
   background-color: white;
-  color: coral;
+  color: #CCA085;
   padding: 20;
   width: fit-content;
-  
 }
 
 .altH3 {
-  background-color: darkslateblue;
+  background-color: #4B5556;
   color: white;
   padding: 20;
   width: fit-content;
 }
 
-.main {
-  background-color: darkslateblue;
-  color: white;
-  align-content: center;
-  display: table-cell;
-  vertical-align: middle;
-  background-color: darkslateblue; /* For browsers that do not support gradients */
-  background-image: linear-gradient(lightsteelblue , darkslateblue);
-}
-
 .end {
-  background-color: darkslateblue;
+  background-color: #5F7880;
   color: white;
   align-content: center;
   vertical-align: middle;
-  background-color: darkslateblue;
   display: table-cell;
   vertical-align: middle;
 
@@ -64,42 +91,62 @@ h2 {
 }
 
 .themeColorMain {
-  background-color: coral;
+  background-color: #CCA085;
   color:white;
 }
 
 .themeColorAlt {
   background-color: white;
-  color:darkslateblue;
+  color:#4B5556;
 }
 
 .panel {
   text-align: center;
 }
 
-.tab {
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  font-size: 20px;
-  font-weight: bolder;
-  color: darkslateblue;
-}
-
 img.avatar {
   border-radius: 50%;
-  display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 10vw;
+  display: block;
 }
 
 img.icon {
-  padding-left: 2em;
-  padding-right: 2em;
+  width: 7vw;
+  min-width:3em;
+  height:auto;
 }
 
 #main {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
+}
+
+/* Shapes */
+.arrow {
+  width: 2.5em;
+  height: 2.5em;
+  transition: 1s;
+  float: left;
+  box-shadow: 5px 5px 0 #5F7880;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }

@@ -1,7 +1,10 @@
-html {
-  scroll-behavior: smooth;
+/* Color Palette */
+:root {
+  --main-color: #CCA085;
+  --alt-color: #4B5556;
 }
 
+/* Navigation Bar */
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -26,22 +29,16 @@ nav li a {
   text-decoration: none;
 }
 
-li a:hover {
+nav li a:hover {
   background-color: #111;
 }
 
-.top {
+/* Peak */
+top div {
   color: #5F7880;
-  background-color: white;
 }
 
-body {
-  font-family: Tahoma;
-  margin: 0;
-  width: 100%;
-}
-
-h1 {
+top h1 {
   text-align: left;
   font-size: 5vw;
   padding-top: 20vh;
@@ -49,7 +46,7 @@ h1 {
   margin: 0;
 }
 
-h2 {
+top h2 {
   text-align: left;
   font-size: 1.5vw;
   font-weight: lighter;
@@ -58,18 +55,39 @@ h2 {
   margin: 0;
 }
 
-.mainH3 {
+#top {
+  height: 100vh;
+  width: 100%;
+}
+
+/* Themes */
+main div {
+  background-color: #CCA085;
+  color:white;
+}
+
+main h3 {
   background-color: white;
   color: #CCA085;
   padding: 20;
   width: fit-content;
 }
 
-.altH3 {
+alt div {
+  background-color: white;
+  color:#4B5556;
+}
+
+alt h3 {
   background-color: #4B5556;
   color: white;
   padding: 20;
   width: fit-content;
+}
+
+/* Divider Styles */
+.block {
+  padding: 50px;
 }
 
 .end {
@@ -86,24 +104,7 @@ h2 {
   padding: 100px;
 }
 
-.divStyle1 {
-  padding: 50px;
-}
-
-.themeColorMain {
-  background-color: #CCA085;
-  color:white;
-}
-
-.themeColorAlt {
-  background-color: white;
-  color:#4B5556;
-}
-
-.panel {
-  text-align: center;
-}
-
+/* Image */
 img.avatar {
   border-radius: 50%;
   margin-left: auto;
@@ -115,11 +116,6 @@ img.icon {
   width: 7vw;
   min-width:3em;
   height:auto;
-}
-
-#main {
-  height: 100vh;
-  width: 100%;
 }
 
 /* Shapes */
@@ -149,4 +145,15 @@ img.icon {
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
+}
+
+/* Overall */
+body {
+  font-family: Tahoma;
+  margin: 0;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
 }

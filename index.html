@@ -6,14 +6,30 @@
     </head>
 
     <body>
+
+        <!-- <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#honors">Honors & Awards</a>
+            </div>
+        </div>
+        
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> -->
+
+
         <nav>
             <ul>
-                <li><a href="#honors">Honors & Awards</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#education">Education</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#honors">Honors & Awards</a></li>
             </ul>
         </nav>
 
@@ -42,11 +58,11 @@
             </div>
         </top>
         
-        <alt>
+        <abt>
             <div class="block" id="about">
 
             </div>
-        </alt>
+        </abt>
         
         <main>
             <div class="block" id="education">
@@ -175,5 +191,16 @@
         
         <div class="end" id="end">
         </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.display = "none";
+        }
+    </script>
+
     </body>
 </html>

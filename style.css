@@ -62,13 +62,13 @@ top h2 {
 
 /* Themes */
 main div {
-  background-color: #CCA085;
+  background-color: #4B5556;
   color:white;
 }
 
 main h3 {
   background-color: white;
-  color: #CCA085;
+  color: #4B5556;
   padding: 20;
   width: fit-content;
 }
@@ -157,6 +157,19 @@ body {
   margin: 0;
   width: 100%;
 }
+
+/*
+Arial (sans-serif)
+Verdana (sans-serif)
+Helvetica (sans-serif)
+Tahoma (sans-serif)
+Trebuchet MS (sans-serif)
+Times New Roman (serif)
+Georgia (serif)
+Garamond (serif)
+Courier New (monospace)
+Brush Script MT (cursive)
+*/
 
 html {
   scroll-behavior: smooth;

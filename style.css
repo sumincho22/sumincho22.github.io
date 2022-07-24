@@ -1,0 +1,58 @@
+/* Basic elements */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+
+    font-family: 'Ramabhadra', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 0;
+
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 20px;
+}
+
+a:hover {
+    color: tan;
+}
+
+/* Dividers */
+.main {
+    height: 100%;
+
+    text-align: center;
+}
+
+.block {
+    width: 650px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    text-align: left;
+}
+
+/* Properties */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
